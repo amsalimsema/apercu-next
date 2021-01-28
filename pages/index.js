@@ -13,7 +13,19 @@ const Index = () => (
       <div className='scroll-area'>
         <Content />
       </div>
-      <div className='scroll-area'>2</div>
+      <div className='scroll-area'>
+        <div className='flex-container'>
+          <div className='flex-item-left'>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias quo ex porro alias, reiciendis neque quae et officiis,
+              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
+              qui architecto.
+            </p>
+          </div>
+          <div className='flex-item-right'></div>
+        </div>
+      </div>
       <div className='scroll-area'>3</div>
       <div className='scroll-area'>4</div>
     </div>
@@ -32,7 +44,7 @@ const Index = () => (
         scroll-snap-align: start;
       }
 
-      .scroll-container,
+      .scroll-con,
       .scroll-area {
         margin: 0;
       }
@@ -57,6 +69,32 @@ const Index = () => (
 
       .scroll-area:nth-of-type(4) {
         background: #8360a6;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .flex-item-left {
+        width: 50vw;
+        flex: 50%;
+      }
+
+      .flex-item-right {
+        width: 50vw;
+        flex: 50%;
+        background-image: url('/test.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      @media (max-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
       }
     `}</style>
   </>
