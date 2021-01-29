@@ -1,5 +1,15 @@
 import Burger from '../components/Burger';
-import Content from '../components/Content';
+import {
+  Apercu,
+  Principles,
+  Studio,
+  Comm,
+  Ui,
+  Design,
+  Branding,
+  Contact,
+  Video,
+} from '../components/Content';
 import Logo from '../components/Logo';
 
 const Index = () => (
@@ -9,13 +19,13 @@ const Index = () => (
       <Logo />
     </div>
 
-    <div className='scroll-con'>
+    <div className='scroll-container'>
       <div className='scroll-area'>
-        <Content />
+        <Video />
       </div>
       <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='apercu-left'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Molestias quo ex porro alias, reiciendis neque quae et officiis,
@@ -23,39 +33,17 @@ const Index = () => (
               qui architecto.
             </p>
           </div>
-          <div className='apercu-right'></div>
-        </div>
-      </div>
-      <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='principles-left'></div>
-          <div className='principles-right'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+          <div className='column-2 box'>
+            <Apercu />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='studio-left'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+        <div className='containerBig'>
+          <div className='column-1 box'>
+            <Principles />
           </div>
-          <div className='studio-right'></div>
-        </div>
-      </div>
-      <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='ui-left'></div>
-          <div className='ui-right'>
+          <div className='column-2 box'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Molestias quo ex porro alias, reiciendis neque quae et officiis,
@@ -66,8 +54,8 @@ const Index = () => (
         </div>
       </div>
       <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='design-left'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Molestias quo ex porro alias, reiciendis neque quae et officiis,
@@ -75,13 +63,17 @@ const Index = () => (
               qui architecto.
             </p>
           </div>
-          <div className='design-right'></div>
+          <div className='column-2 box'>
+            <Studio />
+          </div>
         </div>
       </div>
       <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='comm-left'></div>
-          <div className='comm-right'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
+            <Ui />
+          </div>
+          <div className='column-2 box'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Molestias quo ex porro alias, reiciendis neque quae et officiis,
@@ -92,8 +84,8 @@ const Index = () => (
         </div>
       </div>
       <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='branding-left'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Molestias quo ex porro alias, reiciendis neque quae et officiis,
@@ -101,36 +93,70 @@ const Index = () => (
               qui architecto.
             </p>
           </div>
-          <div className='branding-right'></div>
+          <div className='column-2 box'>
+            <Design />
+          </div>
         </div>
       </div>
       <div className='scroll-area'>
-        <div className='flex-container'>
-          <div className='contact-left'></div>
-          <div className='contact-right'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
+            <Comm />
+          </div>
+          <div className='column-2 box'>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-              tenetur placeat repellendus ratione, minus molestiae facilis quas
-              culpa odio vel deleniti, dolores esse obcaecati ea ut! Veniam
-              cumque soluta debitis.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias quo ex porro alias, reiciendis neque quae et officiis,
+              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
+              qui architecto.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className='scroll-area'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias quo ex porro alias, reiciendis neque quae et officiis,
+              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
+              qui architecto.
+            </p>
+          </div>
+          <div className='column-2 box'>
+            <Branding />
+          </div>
+        </div>
+      </div>
+      <div className='scroll-area'>
+        <div className='containerBig'>
+          <div className='column-1 box'>
+            <Contact />
+          </div>
+          <div className='column-2 box'>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias quo ex porro alias, reiciendis neque quae et officiis,
+              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
+              qui architecto.
             </p>
           </div>
         </div>
       </div>
     </div>
     <style jsx>{`
-      .scroll-con,
+      .scroll-container,
       .scroll-area {
         height: 100vh;
       }
-      .scroll-con {
+      .scroll-container {
         overflow-x: auto;
         scroll-snap-type: y mandatory;
       }
       .scroll-area {
         scroll-snap-align: start;
       }
-      .scroll-con,
+      .scroll-container,
       .scroll-area {
         margin: 0;
       }
@@ -139,7 +165,7 @@ const Index = () => (
         color: white;
       }
       .scroll-area:nth-of-type(1) {
-        background: #49b293;
+        background: transparent;
       }
       .scroll-area:nth-of-type(2) {
         background: #c94e4b;
@@ -165,93 +191,22 @@ const Index = () => (
       .scroll-area:nth-of-type(9) {
         background: #8360a6;
       }
-      .flex-container {
+
+      .containerBig {
         display: flex;
-        flex-direction: row;
-      }
-      .apercu-left {
-        flex: 50%;
-      }
-      .principles-left {
-        flex: 50%;
-        background-image: url('/principles.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .studio-left {
-        flex: 50%;
-      }
-      .ui-left {
-        flex: 50%;
-        background-image: url('/ui.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .design-left {
-        flex: 50%;
-      }
-      .comm-left {
-        flex: 50%;
-        background-image: url('/comm.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .branding-left {
-        flex: 50%;
-      }
-      .contact-left {
-        flex: 50%;
-        background-image: url('/contact.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .apercu-right {
-        flex: 50%;
-        background-image: url('/apercu.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .principles-right {
-        flex: 50%;
-      }
-      .studio-right {
-        flex: 50%;
-        background-image: url('/studio.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .ui-right {
-        flex: 50%;
-      }
-      .design-right {
-        flex: 50%;
-        background-image: url('/design.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .comm-right {
-        flex: 50%;
-      }
-      .branding-right {
-        flex: 50%;
-        background-image: url('/branding.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-      .contact-right {
-        flex: 50%;
       }
 
-      @media (max-width: 800px) {
-        .flex-container {
+      .column-1,
+      column-2 {
+        flex-shrink: 0;
+        flex-basis: 50%;
+      }
+      .box {
+        background-color: rgb(245, 215, 160);
+      }
+
+      @media only screen and (max-width: 900px) {
+        .containerBig {
           flex-direction: column;
         }
       }
