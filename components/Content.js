@@ -95,7 +95,7 @@ export function Branding() {
   return (
     <>
       <Image
-        src='/photos/Branding.png'
+        src='/photos/branding.png'
         alt='home'
         width={960}
         height={989}
