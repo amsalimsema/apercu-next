@@ -165,31 +165,31 @@ const Index = () => (
         color: white;
       }
       .scroll-area:nth-of-type(1) {
-        background: black;
+        background: none;
       }
       .scroll-area:nth-of-type(2) {
-        background: #c94e4b;
+        background: none;
       }
       .scroll-area:nth-of-type(3) {
-        background: #4cc1be;
+        background: none;
       }
       .scroll-area:nth-of-type(4) {
-        background: #8360a6;
+        background: none;
       }
       .scroll-area:nth-of-type(5) {
-        background: #8360a6;
+        background: none;
       }
       .scroll-area:nth-of-type(6) {
-        background: #8360a6;
+        background: none;
       }
       .scroll-area:nth-of-type(7) {
-        background: #8360a6;
+        background: none;
       }
       .scroll-area:nth-of-type(8) {
-        background: #8360a6;
+        background: none;
       }
       .scroll-area:nth-of-type(9) {
-        background: #8360a6;
+        background: none;
       }
 
       .containerBig {
