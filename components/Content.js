@@ -3,13 +3,7 @@ import Image from 'next/image';
 export function Video() {
   return (
     <>
-      <Image
-        src='/photos/test.png'
-        alt='home'
-        width={3840}
-        height={2154}
-        priority
-      />
+      <Image src='/photos/test.png' alt='home' width={3840} height={2154} />
     </>
   );
 }
