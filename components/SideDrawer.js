@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 const Ul = styled.ul`
   list-style: none;
@@ -28,7 +29,6 @@ const Ul = styled.ul`
       transition: 0.2s;
       &:hover {
         color: grey;
-        transform: translateX(5px);
       }
     }
   }
@@ -38,7 +38,13 @@ const SideDrawer = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <img src='../logo.png' alt='logo' width='90' height='40' />
+        <Image
+          src='/photos/SideBarIcon.png'
+          alt='apercu icon'
+          width={45}
+          height={55}
+          priority
+        />
       </li>
     </Ul>
   );

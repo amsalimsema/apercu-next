@@ -1,8 +1,15 @@
+import Image from 'next/image';
 export default function Logo() {
   return (
     <>
       <div className='apercu'>
-        <img src='../logo.png' alt='logo' />
+        <Image
+          src='/logo.png'
+          alt='apercu logo'
+          width={183}
+          height={55}
+          priority
+        />
         <style jsx>{`
           .apercu {
             padding-top: 50px;

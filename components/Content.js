@@ -18,7 +18,7 @@ export function Apercu() {
     <>
       <Image
         src='/photos/apercu.png'
-        alt='home'
+        alt='apercu intro'
         width={960}
         height={992.5}
         priority
@@ -31,7 +31,7 @@ export function Principles() {
     <>
       <Image
         src='/photos/principles.png'
-        alt='home'
+        alt='principles'
         width={960}
         height={992.5}
         priority
@@ -44,7 +44,7 @@ export function Studio() {
     <>
       <Image
         src='/photos/studio.png'
-        alt='home'
+        alt='studio'
         width={960}
         height={992.5}
         priority
@@ -57,7 +57,7 @@ export function Ui() {
     <>
       <Image
         src='/photos/ui.png'
-        alt='home'
+        alt='UI/UX'
         width={960}
         height={989}
         priority
@@ -70,7 +70,7 @@ export function Design() {
     <>
       <Image
         src='/photos/design.png'
-        alt='home'
+        alt='design'
         width={960}
         height={989}
         priority
@@ -83,7 +83,7 @@ export function Comm() {
     <>
       <Image
         src='/photos/comm.png'
-        alt='home'
+        alt='communication'
         width={960}
         height={989}
         priority
@@ -96,7 +96,7 @@ export function Branding() {
     <>
       <Image
         src='/photos/branding.png'
-        alt='home'
+        alt='branding'
         width={960}
         height={989}
         priority
@@ -109,7 +109,7 @@ export function Contact() {
     <>
       <Image
         src='/photos/contact.png'
-        alt='home'
+        alt='contact details'
         width={960}
         height={989}
         priority

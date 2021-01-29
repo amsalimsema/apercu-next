@@ -205,9 +205,9 @@ const Index = () => (
         background-color: rgb(245, 215, 160);
       }
 
-      @media only screen and (max-width: 900px) {
-        .containerBig {
-          flex-direction: column;
+      @media only screen and (max-width: 1024px) {
+        .scroll-container {
+          display: none;
         }
       }
     `}</style>
