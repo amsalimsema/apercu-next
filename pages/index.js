@@ -1,4 +1,6 @@
 import Burger from '../components/Burger';
+import Head from 'next/head';
+
 import {
   Apercu,
   Principles,
@@ -11,6 +13,14 @@ import {
   Video,
 } from '../components/Content';
 import Logo from '../components/Logo';
+<Head>
+  <link
+    rel='preload'
+    href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'
+    as='font'
+    crossOrigin='anonymous'
+  />
+</Head>;
 
 const Index = () => (
   <>

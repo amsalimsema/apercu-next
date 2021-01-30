@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 html,
 body {
   background: transparent;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300 400;
+  /* font-display: optional; */
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 }

@@ -3,7 +3,20 @@ import Image from 'next/image';
 export function Video() {
   return (
     <>
-      <Image src='/photos/test.png' alt='home' width={3840} height={2154} />
+      <video
+        poster='/photos/test.png'
+        autoPlay
+        muted
+        loop
+        style={{
+          objectFit: 'cover',
+          width: '100%',
+          height: '100%',
+          transition: 'opacity, 2s ease-in-out',
+        }}
+        src='/1.mp4'
+        type='video/mp4'
+      />
     </>
   );
 }
