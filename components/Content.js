@@ -163,3 +163,81 @@ export function Contact() {
     </>
   );
 }
+export function CommonBtn() {
+  return (
+    <>
+      <button className='button-vid button1'>Explore</button>
+
+      <style jsx>{`
+        .button-vid {
+          background-color: white;
+          border: none;
+          border-radius: 0.2rem;
+          color: white;
+          padding: 10px 60px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+
+        .button1 {
+          background-color: #87ceeb;
+          color: white;
+        }
+
+        .button1:hover {
+          background-color: grey;
+          color: white;
+        }
+      `}</style>
+    </>
+  );
+}
+export function ApercuAbout() {
+  return (
+    <>
+      <section className='apercu-about'>
+        <h2>Creativity for the</h2>
+        <h2>Evolving world</h2>
+        <p>
+          Apercu is an independent design agency.
+          <br />
+          We make our clients both successful and truly sustainable.
+          <br /> We are led by creative and strategic business people.
+          <br /> Our work results in products and experiences that people
+          <br />
+          love, enduring purpose-led brands and innovative new businesses. All
+          of our work is collaborative, together we solve critical challenges
+          and capture valuable opportunities.
+        </p>
+        <div className='commonbtn'>
+          <CommonBtn />
+        </div>
+      </section>
+
+      <style jsx>{`
+        .apercu-about {
+          color: grey;
+          padding: 10rem 9rem 9rem 3rem;
+        }
+        .apercu-about h2 {
+          line-height: 1.2vh;
+          font-size: 3vw;
+          font-weight: bold;
+        }
+        .apercu-about p {
+          font-size: 1vw;
+          padding-top: 2rem;
+          line-height: 1.3rem;
+        }
+        .commonbtn {
+          padding-top: 4rem;
+        }
+      `}</style>
+    </>
+  );
+}

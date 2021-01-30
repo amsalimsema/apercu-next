@@ -11,6 +11,7 @@ import {
   Branding,
   Contact,
   Video,
+  ApercuAbout,
 } from '../components/Content';
 import Logo from '../components/Logo';
 <Head>
@@ -37,12 +38,7 @@ const Index = () => (
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
           <div className='column-2 box'>
             <Apercu />
@@ -55,24 +51,14 @@ const Index = () => (
             <Principles />
           </div>
           <div className='column-2 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
           <div className='column-2 box'>
             <Studio />
@@ -85,24 +71,14 @@ const Index = () => (
             <Ui />
           </div>
           <div className='column-2 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
           <div className='column-2 box'>
             <Design />
@@ -115,24 +91,14 @@ const Index = () => (
             <Comm />
           </div>
           <div className='column-2 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
           <div className='column-2 box'>
             <Branding />
@@ -145,12 +111,7 @@ const Index = () => (
             <Contact />
           </div>
           <div className='column-2 box'>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quo ex porro alias, reiciendis neque quae et officiis,
-              amet ullam harum a incidunt ipsa! Neque possimus nobis mollitia
-              qui architecto.
-            </p>
+            <ApercuAbout />
           </div>
         </div>
       </div>
@@ -179,28 +140,28 @@ const Index = () => (
         background: none;
       }
       .scroll-area:nth-of-type(2) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(3) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(4) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(5) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(6) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(7) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(8) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
       .scroll-area:nth-of-type(9) {
-        background: none;
+        background: rgba(0, 0, 0, 0.9);
       }
 
       .containerBig {
@@ -213,7 +174,7 @@ const Index = () => (
         flex-basis: 50%;
       }
       .box {
-        background-color: rgb(245, 215, 160);
+        background-color: none;
       }
 
       @media only screen and (max-width: 1024px) {
