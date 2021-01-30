@@ -146,28 +146,28 @@ const Index = () => (
         background: none;
       }
       .scroll-area:nth-of-type(2) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(3) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(4) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(5) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(6) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(7) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(8) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
       .scroll-area:nth-of-type(9) {
-        background: rgba(0, 0, 0, 0.9);
+        background: white;
       }
 
       .containerBig {
