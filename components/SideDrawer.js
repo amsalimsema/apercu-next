@@ -136,7 +136,7 @@ const SideDrawer = ({ open }) => {
         }
         .drawer-list-one p {
           font-weight: bold;
-          font-size: 1.6vw;
+          font-size: 1.3rem;
           color: black;
           line-height: 1rem;
         }
@@ -147,7 +147,7 @@ const SideDrawer = ({ open }) => {
           border-bottom: 2px solid purple;
         }
         .drawer-list-two p {
-          font-size: 1.1vw;
+          font-size: 0.9rem;
           color: grey;
           line-height: 1rem;
         }
@@ -156,7 +156,7 @@ const SideDrawer = ({ open }) => {
         }
         .drawer-list-three p {
           font-weight: bold;
-          font-size: 1vw;
+          font-size: 0.75rem;
           color: black;
           line-height: 1rem;
         }

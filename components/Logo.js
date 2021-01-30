@@ -17,6 +17,13 @@ export default function Logo() {
             position: fixed;
             z-index: 99;
           }
+          @media only screen and (max-width: 768px) {
+            .apercu {
+              width: 10rem;
+              height: 5rem;
+              left: -1rem;
+            }
+          }
         `}</style>
       </div>
     </>

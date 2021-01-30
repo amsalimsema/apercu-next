@@ -18,6 +18,7 @@ import {
   DesignInfo,
   CommInfo,
   BrandingInfo,
+  Mobicontent,
 } from '../components/Content';
 import Logo from '../components/Logo';
 <Head>
@@ -122,7 +123,14 @@ const Index = () => (
         </div>
       </div>
     </div>
+
+    {/*start of mobile*/}
+    <div className='mobi'>
+      <Mobicontent />
+    </div>
+    {/*end of mobile*/}
     <style jsx>{`
+      /*desk*/
       .scroll-container,
       .scroll-area {
         height: 100vh;
@@ -173,7 +181,6 @@ const Index = () => (
       .containerBig {
         display: flex;
       }
-
       .column-1,
       column-2 {
         flex-shrink: 0;
@@ -183,8 +190,20 @@ const Index = () => (
         background-color: none;
       }
 
-      @media only screen and (max-width: 1024px) {
+      /*media queries*/
+      @media only screen and (max-width: 568px) {
         .scroll-container {
+          display: none;
+        }
+        .mobi {
+          display: block;
+        }
+      }
+      @media only screen and (min-width: 1025px) {
+        .scroll-container {
+          display: block;
+        }
+        .mobi {
           display: none;
         }
       }

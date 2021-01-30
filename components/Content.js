@@ -1,4 +1,13 @@
 import Image from 'next/image';
+import Head from 'next/head';
+<Head>
+  <link
+    rel='preload'
+    href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'
+    as='font'
+    crossOrigin='anonymous'
+  />
+</Head>;
 
 export function Video() {
   return (
@@ -185,6 +194,41 @@ export function CommonBtn() {
         .button1 {
           background-color: #87ceeb;
           color: white;
+        }
+
+        .button1:hover {
+          background-color: grey;
+          color: white;
+        }
+      `}</style>
+    </>
+  );
+}
+export function CommonBtnMob() {
+  return (
+    <>
+      <button className='button-vid button1'>Explore</button>
+
+      <style jsx>{`
+        .button-vid {
+          background-color: white;
+          border: none;
+          border-radius: 0.2rem;
+          color: white;
+          padding: 8px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 1rem;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+
+        .button1 {
+          background-color: transparent;
+          color: white;
+          border: 1px solid white;
         }
 
         .button1:hover {
@@ -489,6 +533,107 @@ export function BrandingInfo() {
         }
         .commonbtn {
           padding-top: 4rem;
+        }
+      `}</style>
+    </>
+  );
+}
+export function Mobicontent() {
+  return (
+    <>
+      <div className='scroll-container'>
+        <div className='scroll-area'>
+          <div className='apercu-sm'>
+            <Image
+              src='/logo.png'
+              alt='apercu intro'
+              width={183}
+              height={55}
+              as='image'
+              priority
+            />
+          </div>
+          <div className='apercu-sm-info'>
+            <p>Creativity for the Evolving world</p>
+            <small>
+              Collaborating with ambitious companies to create digital
+              experiences.
+            </small>
+          </div>
+          <section style={{ paddingLeft: '7vw', paddingTop: '4vh' }}>
+            <CommonBtnMob />
+          </section>
+        </div>
+
+        <div className='scroll-area'>
+          <div className='one'>
+            <Image
+              src='/photos/apercu.png'
+              alt='apercu intro'
+              width={1080}
+              height={960}
+              as='image'
+              priority
+            />
+          </div>
+
+          <div className='one'>
+            <h2>Creativity for the</h2>
+            <h2>Evolving world</h2>
+            <p>
+              Apercu is an independent design agency.
+              <br />
+              We make our clients both successful and truly sustainable.
+              <br /> We are led by creative and strategic business people.
+              <br /> Our work results in products and experiences that people
+              <br />
+              love, enduring purpose-led brands and innovative new businesses.
+              All of our work is collaborative, together we solve critical
+              challenges and capture valuable opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+      <style jsx>{`
+        .apercu-sm {
+          padding: 35vh 20vw 0 20vw;
+        }
+        .apercu-sm-info {
+          color: white;
+          padding: 20vh 8vw 0 8vw;
+        }
+        .apercu-sm-info p {
+          line-height: 0.5rem;
+          line-spacing: 0;
+        }
+
+        .one {
+          max-height: 50vh;
+        }
+        .scroll-container,
+        .scroll-area {
+          height: 100vh;
+        }
+        .scroll-container {
+          overflow-x: auto;
+          scroll-snap-type: y mandatory;
+        }
+        .scroll-area {
+          scroll-snap-align: start;
+        }
+        .scroll-container,
+        .scroll-area {
+          margin: 0;
+        }
+        .scroll-area {
+          /*display: flex;*/
+          color: black;
+        }
+        .scroll-area:nth-of-type(1) {
+          background: purple;
+        }
+        .scroll-area:nth-of-type(2) {
+          background: white;
         }
       `}</style>
     </>
