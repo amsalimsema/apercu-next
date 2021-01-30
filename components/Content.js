@@ -221,18 +221,19 @@ export function ApercuAbout() {
 
       <style jsx>{`
         .apercu-about {
-          color: grey;
           padding: 10rem 9rem 9rem 3rem;
         }
         .apercu-about h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .apercu-about p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
@@ -263,18 +264,19 @@ export function PrinciplesInfo() {
 
       <style jsx>{`
         .principles-info {
-          color: grey;
           padding: 9rem 9rem 9rem 9rem;
         }
         .principles-info h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .principles-info p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
@@ -305,18 +307,19 @@ export function StudioInfo() {
 
       <style jsx>{`
         .studio-info {
-          color: grey;
           padding: 10rem 9rem 9rem 3rem;
         }
         .studio-info h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .studio-info p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
@@ -348,18 +351,19 @@ export function UIInfo() {
 
       <style jsx>{`
         .ui-info {
-          color: grey;
           padding: 9rem 9rem 9rem 9rem;
         }
         .ui-info h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .ui-info p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
@@ -388,18 +392,19 @@ export function DesignInfo() {
 
       <style jsx>{`
         .design-info {
-          color: grey;
           padding: 10rem 9rem 9rem 3rem;
         }
         .design-info h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .design-info p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
@@ -429,18 +434,19 @@ export function CommInfo() {
 
       <style jsx>{`
         .comm-info {
-          color: grey;
           padding: 10rem 9rem 9rem 3rem;
         }
         .comm-info h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .comm-info p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
@@ -469,18 +475,19 @@ export function BrandingInfo() {
 
       <style jsx>{`
         .branding-info {
-          color: grey;
           padding: 10rem 9rem 9rem 3rem;
         }
         .branding-info h2 {
           line-height: 1.2vh;
           font-size: 3vw;
           font-weight: bold;
+          color: black;
         }
         .branding-info p {
           font-size: 1vw;
           padding-top: 2rem;
           line-height: 1.3rem;
+          color: grey;
         }
         .commonbtn {
           padding-top: 4rem;
