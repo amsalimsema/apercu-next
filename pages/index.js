@@ -12,6 +12,12 @@ import {
   Contact,
   Video,
   ApercuAbout,
+  PrinciplesInfo,
+  StudioInfo,
+  UIInfo,
+  DesignInfo,
+  CommInfo,
+  BrandingInfo,
 } from '../components/Content';
 import Logo from '../components/Logo';
 <Head>
@@ -51,14 +57,14 @@ const Index = () => (
             <Principles />
           </div>
           <div className='column-2 box'>
-            <ApercuAbout />
+            <PrinciplesInfo />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <ApercuAbout />
+            <StudioInfo />
           </div>
           <div className='column-2 box'>
             <Studio />
@@ -71,14 +77,14 @@ const Index = () => (
             <Ui />
           </div>
           <div className='column-2 box'>
-            <ApercuAbout />
+            <UIInfo />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <ApercuAbout />
+            <DesignInfo />
           </div>
           <div className='column-2 box'>
             <Design />
@@ -91,14 +97,14 @@ const Index = () => (
             <Comm />
           </div>
           <div className='column-2 box'>
-            <ApercuAbout />
+            <CommInfo />
           </div>
         </div>
       </div>
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
-            <ApercuAbout />
+            <BrandingInfo />
           </div>
           <div className='column-2 box'>
             <Branding />
