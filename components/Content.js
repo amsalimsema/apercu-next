@@ -4,7 +4,7 @@ export function Video() {
   return (
     <>
       <video
-        poster='/photos/test.png'
+        poster='/photos/poster.svg'
         autoPlay
         muted
         loop
