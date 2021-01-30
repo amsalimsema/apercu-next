@@ -33,6 +33,7 @@ const Index = () => (
       <div className='scroll-area'>
         <Video />
       </div>
+
       <div className='scroll-area'>
         <div className='containerBig'>
           <div className='column-1 box'>
