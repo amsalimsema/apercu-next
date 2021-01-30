@@ -14,6 +14,7 @@ const Ul = styled.ul`
   }
   @media (min-width: 320px) {
     flex-flow: column nowrap;
+    over-flow: hidden;
     background: white;
     z-index: 120;
     position: fixed;
