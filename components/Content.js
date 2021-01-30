@@ -5,7 +5,6 @@ export function Video() {
     <>
       <div className='video-wrap'>
         <video
-          poster='/photos/poster.svg'
           autoPlay
           muted
           loop

@@ -143,7 +143,7 @@ const Index = () => (
         color: white;
       }
       .scroll-area:nth-of-type(1) {
-        background: none;
+        background: #f8f8ff;
       }
       .scroll-area:nth-of-type(2) {
         background: white;
