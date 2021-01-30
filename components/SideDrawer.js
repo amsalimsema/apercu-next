@@ -15,7 +15,7 @@ const Ul = styled.ul`
   @media (min-width: 320px) {
     flex-flow: column nowrap;
     background: green;
-    z-index: 1;
+    z-index: 120;
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     margin-top: 0;
