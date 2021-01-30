@@ -12,7 +12,6 @@ export function Video() {
             objectFit: 'cover',
             width: '100%',
             height: '100%',
-            transition: 'opacity, 2s ease-in-out',
           }}
           src='/1.mp4'
           type='video/mp4'
@@ -45,13 +44,13 @@ export function Video() {
           }
 
           .button1 {
-            background-color: white;
-            color: black;
+            background-color: grey;
+            color: white;
           }
 
           .button1:hover {
             background-color: grey;
-            color: white;
+            color: rgba(0, 0, 0, 0.7);
           }
         `}</style>
       </div>
